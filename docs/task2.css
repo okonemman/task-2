@@ -1,0 +1,107 @@
+body{
+	background-color:#333333;
+	color:#555555;
+	font-family: bold 16px Sans-serif, Arial;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	font-weight:normal;
+}
+
+.box-1{
+	background-color:#333439;
+	color:white;
+	font:bold;
+	border:7px #e15230 solid;
+	border-width:3px;
+	border-radius:15px;
+}
+
+h3{
+	color:#349281;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	margin:40;
+}
+
+.clr{
+	clear:both;
+}
+
+.form-group{
+	display:block;
+	padding:20px;
+}
+
+.form-group label{
+	display:block;
+	color:coral;
+}
+
+.my-form input[type="text"]{
+	padding:8px;
+	width:50%;
+}
+
+.my-form textarea{
+	padding:8px;
+	width:50%;
+	height:5%;
+}
+
+.my-form h2{
+	padding-left:17px;
+}
+
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:5px 5px;
+	border-radius:10px;
+	border:1px white solid;
+	margin-left: 20px;
+}
+
+.button:hover{
+	background-color:grey;
+	color:black;
+}
+.button:active{
+	color: blue;
+}
+
+.my-form{
+	float:left;
+	width:65%;
+	border: 2px grey solid;
+	background-image:url(images.jpeg);
+	background-position:100px 100px;
+	box-sizing:border-box;
+}
+
+.categories ul{
+	float:right;
+	width:35%;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.categories, .categories li{
+	list-style:none;
+	list-style-position:inside;
+	margin-top:150px;
+}
+
+.categories li{
+	line-height:30px;
+	margin:auto;
+}
+
+
+a{
+	text-decoration:none;
+}
+
