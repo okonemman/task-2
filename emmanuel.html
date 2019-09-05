@@ -2,24 +2,23 @@
 <html>
 <head>
 	<title>My CV</title>
+	<style type="text/css">
+		
+	</style>
 </head>
 <body>
-	<fieldset>
+	<div class="box-1">
 		<header>
-		<h1>
-			<center>
-				<mark>OKON, Emmanuel</mark>
-			</center>
+		<h1 style="color:linen;">
+			<center>OKON, Emmanuel</center>
 		</h1>
 		<h5>
 			<center>Mobile: 08125731969 Email: <a href="eokon87@gmail.com">eokon87@gmail.com</a></center>
 			<center>No. 5, Adedunmoye Close, Off Abdulrahman Atta Street, Offa, Kwara State.</center>
 		</h5>
+		<link rel="stylesheet" type="text/css" href="task2.css">
 		</header>
 		<header>
-			<center>
-				<img src="https://res.cloudinary.com/okonemman/image/upload/v1566555223/passportphoto_cwtpcc.jpg" width="250" height="250">
-			</center>
 			<h3>
 				<strong>Professional Objective:</strong>
 			</h3>
@@ -51,7 +50,7 @@
 		<h3>
 			<strong>Relevant Work Experience:</strong>
 		</h3>
-		<div>
+		<div class="container">
 			<p><strong>Bethesda Geo-Design Consult,</strong> Uyo, Nigeria.</p>
 			<p>Industrial Training (in view)                           April, 2018 - Sept, 2018</p>
 			<ul>
@@ -66,7 +65,7 @@
 		<h3>
 			<strong>Other Experience:</strong>
 		</h3>
-		<div>
+		<div class="container">
 			<p><strong>Department of Estate Management,</strong> University of Ilorin Facilities Management, Project Member July, 2016 - Aug, 2016</p>
 			<ul>
 				<li>Assessed the level of application of facilities management in the university.</li>
@@ -74,29 +73,62 @@
 				<li>Identified the challenges militating against the holistic adoption of facilities principles in the university.</li>
 			</ul>
 		</div>
-	<br>	
-		<h3>
+	<br>
+		<h3 style="padding:20px; text-indent:5.5%;">
 			<strong>Skills:</strong>
 		</h3>
-		<section>
-			<p>Excellent writing skills, result oriented and innovative.</p>
-			<p>Strong analytical skills.</p>
-			<p>Networking and team work capabilities.</p>
-			<p>Continuous learning and adaptability to new technologies.</p>
-			<p>Organizational ability.</p>
-		</section>
-		<h3>
+		<div class="box-2">
+			<section style="text-align:center; width:50%">
+				<p>Excellent writing skills, result oriented and innovative.</p>
+				<p>Strong analytical skills.</p>
+				<p>Networking and team work capabilities.</p>
+				<p>Continuous learning and adaptability to new technologies.</p>
+				<p>Organizational ability.</p>
+			</section>
+		</div>
+		<h3 style="margin:auto; text-indent:7%">
 			<strong>Interests:</strong>
 		</h3>
-		<section>
-			<p>History | GIS | The Physical Environment | Reading</p>
+		<section style="margin:auto; text-indent:7%">
+			<p style="text-indent:13%">History | GIS | The Physical Environment | Reading</p>
 		</section>
-		<h3>
+		<h3 style="margin:auto; text-indent:7%">
 			<strong>References:</strong>
 		</h3>
-		<section>
-			<p>Available on request</p>
+		<section style="margin:auto; text-indent:7%">
+			<p style="width:50%">Available on request</p>
 		</section>
-	</fieldset>
+	</div>
+	<div class="clr"></div>
+	<div class="clr"></div>
+	<form class="my-form">
+		<h2 style="color:#27545B">Contact Form</h2>
+		<div class="form-group">
+			<label>Name: </label>
+			<input type="text" name="name" placeholder="surname first" minlength="4" required>	
+		</div>
+		<div class="form-group">
+			<label>Email: </label>
+			<input type="email" name="email" placeholder="enter email here" required>
+		</div>
+		<div class="form-group">
+			<label>Title: </label>
+			<input type="text" name="subject of message" placeholder="subject of message">
+		</div>
+		<div class="form-group">
+			<label>Message: </label>
+			<textarea name="message" placeholder="Type Message Here" maxlength="20" required="required"></textarea>	
+		</div>
+		<input class="button" type="Submit" value="Submit">
+	</form>
+	<div class="categories">
+		<h2 style="color:#AEE8F6; text-align:center;" >Social Media</h2>
+		<ul>
+			<li style="list-style-image:url(facebook.svg);"><a href="www.facebook.com">Okon Emmanuel</a></li>
+			<li style="list-style-image:url(twitter.svg);"><a style="color:#27EEF6" href="www.twitter.com">@hislifeisameme</a></li>
+			<li style="list-style-image:url(gmail.svg);"><a style="color:#FE3E02;" href="eokon87@gmail.com">eokon87@gmail.com</a></li>
+			<li style="list-style-image:url(whatsapp.svg);"><a style="color:green;" href="#">+2348125731969</a></li>
+		</ul>
+	</div>
 </body>
 </html>
